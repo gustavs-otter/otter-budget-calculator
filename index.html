@@ -241,7 +241,8 @@
   /* Mobile portrait */
   @media (max-width: 700px) {
     body {
-      padding: 28px 20px 440px;
+      padding: 28px 20px 32px;
+      position: relative;
     }
 
     .topbar {
@@ -275,15 +276,21 @@
     }
 
     .mascot-wrap {
-      width: 120px;
-      right: 16px;
+      position: relative;
+      bottom: auto;
+      right: auto;
+      width: 140px;
+      margin-left: auto;
+      margin-top: 12px;
+      pointer-events: none;
     }
   }
 
   /* Mobile landscape + tablets */
   @media (max-width: 1024px) and (min-width: 701px) {
     body {
-      padding: 32px 32px 360px;
+      padding: 32px 32px 32px;
+      position: relative;
     }
 
     .main {
@@ -292,8 +299,13 @@
     }
 
     .mascot-wrap {
-      width: 150px;
-      right: 24px;
+      position: relative;
+      bottom: auto;
+      right: auto;
+      width: 160px;
+      margin-left: auto;
+      margin-top: 16px;
+      pointer-events: none;
     }
   }
 </style>
