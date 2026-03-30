@@ -237,6 +237,47 @@
     width: 100%;
     display: block;
   }
+
+  @media (max-width: 700px) {
+    body {
+      padding: 28px 20px 160px;
+    }
+
+    .topbar {
+      align-items: flex-start;
+      margin-bottom: 24px;
+    }
+
+    .titles h1 {
+      font-size: 22px;
+    }
+
+    .main {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .card, .table-card {
+      padding: 20px;
+    }
+
+    .freq-table td {
+      padding: 13px 0;
+    }
+
+    .amount {
+      font-size: 17px;
+    }
+
+    .daily-val {
+      font-size: 13px;
+    }
+
+    .mascot-wrap {
+      width: 130px;
+      right: 16px;
+    }
+  }
 </style>
 </head>
 <body>
