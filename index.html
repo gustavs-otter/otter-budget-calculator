@@ -238,9 +238,10 @@
     display: block;
   }
 
+  /* Mobile portrait */
   @media (max-width: 700px) {
     body {
-      padding: 28px 20px 160px;
+      padding: 28px 20px 220px;
     }
 
     .topbar {
@@ -274,8 +275,25 @@
     }
 
     .mascot-wrap {
-      width: 130px;
+      width: 120px;
       right: 16px;
+    }
+  }
+
+  /* Mobile landscape + tablets */
+  @media (max-width: 1024px) and (min-width: 701px) {
+    body {
+      padding: 32px 32px 180px;
+    }
+
+    .main {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .mascot-wrap {
+      width: 150px;
+      right: 24px;
     }
   }
 </style>
